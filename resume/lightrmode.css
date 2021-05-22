@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    transition: 0,7s;
+}
+
+.head{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav{
+    padding-left: 20px;
+    
+}
+.menu{
+    padding-top: 12px;
+}
+#switchmode{
+    padding: 8px;
+    background-color: black;
+    color: blanchedalmond;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    margin-top: 1%;
+    outline: none;
+    margin-left: 20px;
+}
+#switchmode:hover{
+    background: rgb(45, 50, 102);
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.navigation_button{
+    margin-left: 35px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    position: relative;
+    top: 18px;
+}
+.navigation_button:hover{
+    color: rgb(152, 152, 214);
+    transition: 0,1s;
+}
+.accordion{
+    width: 150px;
+    
+    background-color: #eee;
+    color:#444;
+    cursor:pointer;
+    padding: 18px;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.accordion.active,
+.accordion:hover{
+    background-color: #ddd;
+}
+.panel{
+    border-radius: 3px;
+    transition: 2s;
+    width:200px;
+    padding:  0 18px;
+    background-color: white;
+    display: none;
+    background-color: thistle;
+    font-size: 16px;
+    color: white;
+}
+.panel.show{
+    display: block;
+}
+#names{
+    margin-left: 35px;
+    position: relative;
+    top: 18px;
+}
+.sidebar1{
+    width: 100%;
+    height: 700px;
+    -webkit-box-shadow: 2px 8px 10px 3px rgba(61, 154, 225, 0.18);
+    -moz-box-shadow: 2px 8px 10px 3px rgba(61, 154, 225, 0.18);
+    box-shadow: 2px 8px 10px 3px rgba(61, 154, 225, 0.18);      
+    display: flex;
+}
+.photo1{
+    margin-top: 87px;
+}
+.container_sidebar1{
+    margin-left: 100px;
+    position: relative;
+    top: 180px;
+}
+.discover_now_btn{
+    width: 168.48px;
+    height: 42px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+}
+.btn{
+    color: white;
+    margin-left: 30px;
+    position: relative;
+    top: 7px;
+    font-size: 14px;
+
+}
+.btn:hover{
+    color: rgb(152, 152, 214);
+    transition: 0,8s;}
+.top_sub{
+    font-size: 14px;
+}
+.heading{
+    font-size: 60px;
+}
+.buttom_sub{
+    font-size: 14px;
+}
+.sidebar2{
+    width: 100%;
+    height: 503px;
+    display: flex;
+    background-color: #efefef;
+    -webkit-box-shadow: 2px 8px 10px 3px rgba(61, 154, 225, 0.18);
+    -moz-box-shadow: 2px 8px 10px 3px rgba(61, 154, 225, 0.18);
+    box-shadow: 2px 8px 10px 3px rgba(61, 154, 225, 0.18);
+}
+.myphoto2{
+    width: 503px;
+    height: 383px;
+    
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.container_sidebar2{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.photo2{
+    -webkit-box-shadow: 1px 3px 28px 3px rgba(61, 154, 225, 0.22);
+    -moz-box-shadow: 1px 3px 28px 3px rgba(61, 154, 225, 0.22);
+    box-shadow: 1px 3px 28px 3px rgba(61, 154, 225, 0.22);
+}
+.sidebar3{
+    width: 100%;
+    height:500px;
+    -webkit-box-shadow: 2px 8px 10px 3px rgba(61, 154, 225, 0.18);
+    -moz-box-shadow: 2px 8px 10px 3px rgba(61, 154, 225, 0.18);
+    box-shadow: 2px 8px 10px 3px rgba(61, 154, 225, 0.18);
+
+}
+.heading_text{
+    margin-top: 150px;
+}
+.sidebar3_heading{
+    text-align: center;
+    
+}
+.sidebar4{
+    width: 100%;
+    height: 800px;
+}
+.offered{
+    width: 349px;
+    height: 176px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#pictures{
+    font-size: 30px;
+    
+}
+#pictures:hover{
+    color: rgb(152, 152, 214);
+    transition: 2s;}
+.offereds{
+    display: flex;
+    
+}
+.projects{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.Project1{
+   width: 379px;
+   height: 400px;
+   
+}
+.screen1{
+    width: 348px;
+    height: 348px;
+    background: url(./img/Screenshot_1.png);
+    background-size: 348px 348px;
+    margin: 0 auto;
+    border-radius: 10px ;
+}
+
+
+
+
+
+.sidebar5 {
+    position: relative;
+    top: -90px;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(27, 26, 56);
+}
+
+.foto_text{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    top: 30px;
+    
+    color: #1e9cbc;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Слайдер: */
+
+.slider {
+    max-width: 700px;
+    /* Положение элемента устанавливается относительно его исходной позиции: */
+    position: relative;
+    /* Центрируем по горизонтали: */
+    margin: auto;
+    height: 100px;
+    z-index: 1;
+    top: 100px;
+    border-radius: 1px;
+}
+
+
+/* Картинка масштабируется по отношению к родительскому элементу: */
+
+.slider .item img {
+    /* Элемент меняет размер так, чтобы заполнить блок и сохранить пропорции: */
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+}
+
+
+/* Кнопки назад и вперёд: */
+
+.slider .previous,
+.slider .next {
+    /* Добавляет курсору иконку, когда тот оказывается над кнопкой: */
+    cursor: pointer;
+    /* Положение элемента задаётся относительно границ браузера: */
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    /* Оформление самих кнопок: */
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    /* Плавное появление фона при наведении курсора: */
+    transition: 0.6s ease;
+    /* Скругление границ: */
+    border-radius: 0 3px 3px 0;
+}
+
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* При наведении курсора на кнопки добавляем фон кнопок: */
+
+.slider .previous:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* Анимация слайдов: */
+
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+.text-project1{
+    margin-left: 150px;
+}
+
+footer{
+    width: 100%;
+    height: 406px;
+    background-color: #04091e;
+}
+.form-control{
+    width: 398px;
+    height: 42px;
+}
+
+.single-footer-vidget{
+    color: white;
+}
+.nov{
+    color: white;
+    font-size: 18px;
+}
+.description{
+    color: #777777;
+}
+.all_of_footer{
+    width: 100%;
+    margin-left: 400px;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+.Newsletter{
+    margin-left: 100px;
+}
+.social{
+    color:white ;
+    margin-left: 100px;
+}
+#massengers{
+    margin-left: 30px;
+
+}
